@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alamin's Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+
+    <!-- box icons link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- remix icons link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <a href="#" class="logo">Portfolio</a>
+
+    <ul class="navlist">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about" id="about-link">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-right">
+        <a href="mailto:alamin7846@gmail.com" class="nav-btn">Hire me!</a>
+        <div class="bulbon-icon" id="bulb-icon">
+            <img src="./assests/sun.png" alt="" id="on">
+        </div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+</header>
+
+<!-- Home -->
+<section class="hero" id="home">
+    <div class="hero-text">
+        <h6>Hello, <span>my name is</span></h6>
+        <h1><span>Alamin</span> Rahman</h1>
+        <h4>I'm an aspiring <br> <span class="input-js"></span></h4>
+        <p>From Romford, London. I recently completed a Boot Camp in Software Development where I was able to hone my skills. Interested to hear more, <button id="modal-btn-js">click here!</button></p>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h4><span class="modal-input-js"></span></h4>
+                <p>Through my enrolment in the <span>Software Development</span> Skills Bootcamp with <span>Just IT</span> and ongoing self-study on platforms like <span>Udemy</span> and <span>YouTube</span>, I've learnt skills such as HTML, CSS, JavaScript, MySQL, Python and much more. 
+                    
+								<br>
+								<br>
+
+								This commitment reflects my dedication and eagerness to expand my knowledge in this field, aligning with my goal of becoming a skilled <span>Software Developer</span>. I aim to create solutions that solve problems, continually learn and grow in coding and expand my horizons.
+                </p>
+            </div>
+        </div>
+
+        <div class="hero-icons">
+            <a href="https://www.linkedin.com/in/alamin-rahman/"><i class="ri-linkedin-box-fill"></i></a>
+            <a href="https://github.com/Alamin-R4hman"><i class="ri-github-line"></i></a>
+            <a href="mailto:alamin7846@gmail.com"><i class="ri-mail-send-line"></i></a>
+        </div>
+
+        <div class="hero-btn">
+            <a onclick="window.open('./assets/Alamin Rahman - Dev CV.pdf')" class="btn">Download CV</a>
+            <a href="#portfolio" class="btn2">My Portfolio</a>
+        </div>
+    </div>
+
+    <div id="hero-image">
+        <img id="dark-image" src="./assests/dark-theme.png" alt="image of me in dark theme">
+    </div>
+
+    <div class="scroll">
+        <a href="#skills"><i class="ri-scroll-to-bottom-fill"></i>Scroll Bottom</a>
+    </div>
+</section>
+
+	<!--Skills-->
+
+	<section class="skills" id="skills">
+		<div class="mid-text">
+			<h2>MY SKILLS</h2>
+			<h5>Take a look</h5>
+		</div>
+	
+		<div class="skills-content">
+			<div class="col">
+				<img 
+				src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" 
+				alt="HTML5 Icon"
+				title="HTML"
+				loading="lazy">
+			</div>
+	
+			<div class="col">
+				<img 
+				src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" 
+				alt="CSS Icon"
+				loading="lazy">
+			</div>
+	
+			<div class="col">
+				<img 
+				src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" 
+				alt="JavaScript Icon"
+				loading="lazy">
+			</div>
+	
+			<div class="col">
+				<img 
+				src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" 
+				alt="MySQL Icon"
+				loading="lazy">
+			</div>
+	
+			<div class="col">
+				<img 
+				src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" 
+				alt="Python Icon"
+				loading="lazy">
+			</div>
+	
+			<div class="col">
+				<img 
+				src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" 
+				alt="Bootstrap Icon"
+				loading="lazy">
+			</div>
+	
+		</div>
+	</section>
+
+	<!--- Portfolio --->
+
+	<section class="portfolio" id="portfolio">
+		<div class="mid-text">
+			<h2>PORTFOLIO</h2>
+			<h5>My projects</h5>
+		</div>
+
+		<div class="portfolio-content">
+			<div class="row">
+				<div class="portfolio-img">
+					<img src="./assests/p1.jpg">
+				</div>
+
+				<div class="p-flex">
+					<a href="#" class="flex1">APP</a>
+					<a href="#" class="flex2">DEVELOPMENT</a>
+				</div>
+				<h3>Mobile application design</h3>
+			</div>
+
+			<div class="row">
+				<div class="portfolio-img">
+					<img src="./assests/p2.jpg">
+				</div>
+
+				<div class="p-flex">
+					<a href="#" class="flex1">APP</a>
+					<a href="#" class="flex2">DEVELOPMENT</a>
+				</div>
+				<h3>Marketing site design and build</h3>
+			</div>
+
+			<div class="row">
+				<div class="portfolio-img">
+					<img src="./assests/p3.jpg">
+				</div>
+
+				<div class="p-flex">
+					<a href="#" class="flex1">APP</a>
+					<a href="#" class="flex2">DEVELOPMENT</a>
+				</div>
+				<h3>Paper & Book covers design</h3>
+			</div>
+
+		</div>
+
+		<div class="portfolio-btn">
+			<a href="#" class="p-btn">View all projects<i class="ri-arrow-right-up-line"></i></a>
+		</div>
+	</section>
+
+	<!--- Contact --->
+
+	<section class="contact" id="contact">
+		<div class="contact-content">
+			<h5>Don't be a stranger</h5>
+      <h3>Get in touch</h3>
+      <div class="social-icon">
+        <a href="mailto:alamin7846@gmail.com"><i class="ri-mail-send-line"></i></a>
+        <a href="https://www.linkedin.com/in/alamin-rahman/"><i class="ri-linkedin-box-fill"></i></a>
+      </div>
+    </div>
+  </section>
+
+	<!--- Footer --->
+
+	<div class="footer">
+		<div class="copyright">
+			<p>Copyright &#169; 2024 | Alamin Rahman | All Rights Reserved</p>
+		</div>
+
+		<a href="#home" class="scroll-top">
+			<i class="ri-arrow-up-double-fill"></i>
+		</a>
+	</div>
+
+
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+	<!--- JS links --->
+
+	<!--Scroll Reveal-->
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+	<!--Typing Effect-->
+	<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+	<!--Link to External Page-->
+	<script src="script.js"></script>
+
+</body>
+</html>

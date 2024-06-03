@@ -142,12 +142,12 @@ var bulb = document.getElementById("on");
 var image = document.getElementById("dark-image")
 
 bulb.onclick = function(){
-  document.body.classList.toggle("light-theme");
-  if(document.body.classList.contains("light-theme")){
+  document.body.classList.toggle("dark-theme");
+  if(document.body.classList.contains("dark-theme")){
+    bulb.src = "./assests/sun.png";
+    image.src = "./assests/dark-theme.png"
+  }else{
     bulb.src = "./assests/moon.png";
     image.src = "./assests/light-theme.png";
-  }else(document.body.classList.contains("dark-theme"));{
-    bulb.src = "./assests/sun.png";
-    image.src = "./assests/dark-theme.png";
   }
 }

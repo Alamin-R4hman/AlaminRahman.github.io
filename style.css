@@ -9,21 +9,6 @@
 }
 
 :root{
-	--bg-color: #1d1c1b;
-	--text-color: #fff;
-	--main-color: #ea5445;
-	--second-bg-color: #22211f;
-	--other-color: #858585;
-	--second-color: #1a1a1a;
-  --shadow: -1px -1px 0px #000, 7px 7px 0px #000, 9px 9px 0px #00000055;
-  --hover:rgb(41, 41, 41);
-	--h1-font: 5rem;
-	--h2-font: 3.2rem;
-	--p-font: 1.1rem;
-  
-}
-
-.light-theme{
   --bg-color: #f5f5f5;
   --text-color: #000;
   --main-color: #007acc;
@@ -32,6 +17,25 @@
   --other-color: #6a6a6a;
   --second-color: #ffffff;
   --shadow: -1px -1px 0px #FFF, 7px 7px 0px #FFF, 9px 9px 0px #FFFFFF55;
+
+	--h1-font: 5rem;
+	--h2-font: 3.2rem;
+	--p-font: 1.1rem;
+  
+}
+
+.dark-theme{
+  --bg-color: #1d1c1b;
+	--text-color: #fff;
+	--main-color: #ea5445;
+	--second-bg-color: #22211f;
+	--other-color: #858585;
+	--second-color: #1a1a1a;
+  --shadow: -1px -1px 0px #000, 7px 7px 0px #000, 9px 9px 0px #00000055;
+  --hover:rgb(41, 41, 41);
+}
+.light-theme{
+  
 }
 header{
 	position: fixed;

@@ -24,7 +24,13 @@
   
 }
 
-.dark-theme{
+.dark-theme body, 
+.dark-theme .logo, 
+.dark-theme .navlist a, 
+.dark-theme .navlist a:hover, 
+.dark-theme .col 
+
+{
   --bg-color: #1d1c1b;
 	--text-color: #fff;
 	--main-color: #ea5445;
@@ -34,9 +40,8 @@
   --shadow: -1px -1px 0px #000, 7px 7px 0px #000, 9px 9px 0px #00000055;
   --hover:rgb(41, 41, 41);
 }
-.light-theme{
-  
-}
+
+
 header{
 	position: fixed;
 	width: 100%;

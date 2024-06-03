@@ -18,6 +18,13 @@ window.onscroll = () => {
   navlist.classList.remove('open')
 }
 
+// Ensure menu icon is always visible on load if screen width is <= 1080px
+document.addEventListener("DOMContentLoaded", () => {
+  if (window.innerWidth <= 1080) {
+    menu.style.display = 'block';
+  }
+});
+
 //Scroll Reveal
 
 ScrollReveal({

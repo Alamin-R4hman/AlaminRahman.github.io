@@ -129,5 +129,20 @@
   .skills-content{
     justify-content: center;
   }
+	header{
+		padding: 15px 5%;
+	}
+	.nav-btn{}
+}
 
+@media(max-width:400px){
+	#menu-icon{
+		display: block;
+	}
+	.logo{
+		font-size: 25px;
+	}
+	.nav-btn{
+		font-size: 15px;
+	}
 }

@@ -260,9 +260,10 @@ section{
 }
 
 header.sticky{
-	padding: 8px 13%;
-	background: transparent;
-	backdrop-filter: blur(20px);
+	padding: 13px 5%;
+  background: var(--bg-color); /* Ensure background is set */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Optional: Add shadow for better visibility */
+  transition: all .50s ease;
 }
 
 #modal-btn-js{

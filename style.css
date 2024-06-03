@@ -37,10 +37,10 @@
   --text-color: #000;
   --main-color: #007acc;
   --second-bg-color: #e3e3e3;
-  --shadow: -1px -1px 0px #FFF, 7px 7px 0px #FFF, 9px 9px 0px #FFFFFF55;
   --hover:rgb(214, 214, 214);
   --other-color: #6a6a6a;
   --second-color: #ffffff;
+  --shadow: -1px -1px 0px #FFF, 7px 7px 0px #FFF, 9px 9px 0px #FFFFFF55;
 }
 header{
 	position: fixed;

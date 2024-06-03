@@ -145,8 +145,8 @@ bulb.onclick = function(){
   document.body.classList.toggle("light-theme");
   if(document.body.classList.contains("light-theme")){
     bulb.src = "./assests/moon.png";
-    image.src = "./assests/light-theme.png"
-  }else{
+    image.src = "./assests/light-theme.png";
+  }else(document.body.classList.contains("dark-theme"));{
     bulb.src = "./assests/sun.png";
     image.src = "./assests/dark-theme.png";
   }

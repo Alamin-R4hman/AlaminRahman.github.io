@@ -24,13 +24,7 @@
   
 }
 
-.dark-theme body, 
-.dark-theme .logo, 
-.dark-theme .navlist a, 
-.dark-theme .navlist a:hover, 
-.dark-theme .col 
-
-{
+.dark-theme{
   --bg-color: #1d1c1b;
 	--text-color: #fff;
 	--main-color: #ea5445;

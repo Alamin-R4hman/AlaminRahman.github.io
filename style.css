@@ -453,6 +453,7 @@ header.sticky{
 	font-weight: 600;
 	color: var(--text-color);
 	transition: all .6s ease;
+	cursor: pointer;
 }
 .p-btn:hover{
 	background: transparent;

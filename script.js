@@ -140,14 +140,17 @@ bulbIcon.addEventListener("click", function () {
 
 var bulb = document.getElementById("on");
 var image = document.getElementById("dark-image")
+var image2 = document.getElementById("soon")
 
 bulb.onclick = function(){
   document.body.classList.toggle("dark-theme");
   if(document.body.classList.contains("dark-theme")){
     bulb.src = "./assests/sun.png";
     image.src = "./assests/dark-theme.png"
+    image2.src = "./assests/coming soon - dark.png";
   }else{
     bulb.src = "./assests/moon.png";
     image.src = "./assests/light-theme.png";
+    image2.src = "./assests/coming soon - light.png";
   }
 }

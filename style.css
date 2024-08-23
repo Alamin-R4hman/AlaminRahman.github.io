@@ -8,6 +8,10 @@
 	font-family: "Jost", sans-serif;
 }
 
+html, body{
+	overflow-x: hidden;
+}
+
 :root{
   --bg-color: #f5f5f5;
   --text-color: #000;
